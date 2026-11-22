@@ -1,0 +1,18 @@
+
+# Dependências
+node_modules/
+**/node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Credenciais privadas
+*service-account*.json
+*firebase-adminsdk*.json
+*serviceAccountKey*.json
+
+# Arquivos locais
+.DS_Store
+Thumbs.db

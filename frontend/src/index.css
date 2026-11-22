@@ -1,0 +1,71 @@
+
+/* Identidade visual do Saboriza */
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+
+  --amarelo: #F5B700;
+  --amarelo-escuro: #D99E00;
+  --grafite: #252525;
+  --creme: #FFF8E7;
+  --branco: #FFFFFF;
+  --cinza: #666666;
+  --borda: #E5E5E5;
+
+  color-scheme: light;
+  color: var(--grafite);
+  background-color: var(--creme);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--creme);
+  color: var(--grafite);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: var(--grafite);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+
